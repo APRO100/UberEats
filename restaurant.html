@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/Uber Eats Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/!main.css" />
+    <title>UberEats</title>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="nav-panel container">
+        <a href="index.html">
+          <div class="nav-logo">
+            <img src="img/logo.svg" alt="UberEats" />
+          </div>
+        </a>
+
+        <div class="nav-cabinet">
+          <input
+            type="button"
+            value="Войти"
+            class="nav-element button nav-button"
+          />
+          <a href="#" class="icon-link nav-element basket">
+            <img src="img/basket.svg" alt="Корзина" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="container">
+        <div class="hero-info">
+          <h1>Трактир «Пушкин»</h1>
+          <div class="hero-info-footer">
+            <div class="store-type">₽₽₽ • Европейская</div>
+            <div class="hero-info-footer-time">40 - 50 мин</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a id="menu"></a>
+
+    <div class="tabs">
+      <input
+        type="radio"
+        name="tab-btn"
+        data-num="0"
+        id="tab-btn-1"
+        value=""
+        checked
+      />
+      <input type="radio" name="tab-btn" data-num="1" id="tab-btn-2" value="" />
+      <input type="radio" name="tab-btn" data-num="2" id="tab-btn-3" value="" />
+      <input type="radio" name="tab-btn" data-num="3" id="tab-btn-4" value="" />
+      <input type="radio" name="tab-btn" data-num="4" id="tab-btn-5" value="" />
+      <input type="radio" name="tab-btn" data-num="5" id="tab-btn-6" value="" />
+
+      <div class="tabs-labels container">
+        <label id="tab-btn-label-1" data-num="0" for="tab-btn-1">Закуски</label>
+        <label id="tab-btn-label-2" data-num="1" for="tab-btn-2">Салаты</label>
+        <label id="tab-btn-label-3" data-num="2" for="tab-btn-3">Супы</label>
+        <label id="tab-btn-label-4" data-num="3" for="tab-btn-4"
+          >Горячие блюда</label
+        >
+        <label id="tab-btn-label-5" data-num="4" for="tab-btn-5">Гарниры</label>
+        <label id="tab-btn-label-6" data-num="5" for="tab-btn-6">Десерты</label>
+      </div>
+
+      <div class="hr-menu"></div>
+
+      <div class="header-with-arrows">
+        <div class="arrow-left-container">
+          <img class="arrow-left" src="img/arrow-left.svg" alt="&lt;" />
+        </div>
+        <h2 id="header-with-arrows-name">Закуски</h2>
+        <div class="arrow-right-container">
+          <img class="arrow-right" src="img/arrow-right.svg" alt="&lt;" />
+        </div>
+      </div>
+
+      <div class="tabs-contents container">
+        <div id="menu-1" class="tab-content">
+          <h2 class="header">Закуски</h2>
+          <div class="dish-cards">
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сельдь на бородинском хлебе</div>
+                  <div class="dish-name-sub">С яйцом и огурцом</div>
+                </div>
+                <div class="dish-price">240</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/seld.svg"
+                alt="Сельдь на бородинском хлебе"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Соленья ассорти</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/assorti.svg"
+                alt="Соленья ассорти"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Грибы маринованные</div>
+                </div>
+                <div class="dish-price">300</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/gribi.svg"
+                alt="Грибы маринованные"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сало домашнее с горчицей</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/salo.svg"
+                alt="Сало домашнее с горчицей"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Малосольная сёмга</div>
+                  <div class="dish-name-sub"></div>
+                </div>
+                <div class="dish-price">390</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/semga.svg"
+                alt="Малосольная сёмга"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Язык говяжий с хреном</div>
+                </div>
+                <div class="dish-price">350</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/yazik.svg"
+                alt="Язык говяжий с хреном"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div id="menu-2" class="tab-content">
+          <h2 class="header">Салаты</h2>
+          <div class="dish-cards">
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сало домашнее с горчицей</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/salo.svg"
+                alt="Сало домашнее с горчицей"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Соленья ассорти</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/assorti.svg"
+                alt="Соленья ассорти"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Язык говяжий с хреном</div>
+                </div>
+                <div class="dish-price">350</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/yazik.svg"
+                alt="Язык говяжий с хреном"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Грибы маринованные</div>
+                </div>
+                <div class="dish-price">300</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/gribi.svg"
+                alt="Грибы маринованные"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Малосольная сёмга</div>
+                  <div class="dish-name-sub"></div>
+                </div>
+                <div class="dish-price">390</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/semga.svg"
+                alt="Малосольная сёмга"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сельдь на бородинском хлебе</div>
+                  <div class="dish-name-sub">С яйцом и огурцом</div>
+                </div>
+                <div class="dish-price">240</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/seld.svg"
+                alt="Сельдь на бородинском хлебе"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div id="menu-3" class="tab-content">
+          <h2 class="header">Супы</h2>
+          <div class="dish-cards">
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Малосольная сёмга</div>
+                  <div class="dish-name-sub"></div>
+                </div>
+                <div class="dish-price">390</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/semga.svg"
+                alt="Малосольная сёмга"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сало домашнее с горчицей</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/salo.svg"
+                alt="Сало домашнее с горчицей"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Соленья ассорти</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/assorti.svg"
+                alt="Соленья ассорти"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Грибы маринованные</div>
+                </div>
+                <div class="dish-price">300</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/gribi.svg"
+                alt="Грибы маринованные"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сельдь на бородинском хлебе</div>
+                  <div class="dish-name-sub">С яйцом и огурцом</div>
+                </div>
+                <div class="dish-price">240</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/seld.svg"
+                alt="Сельдь на бородинском хлебе"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Язык говяжий с хреном</div>
+                </div>
+                <div class="dish-price">350</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/yazik.svg"
+                alt="Язык говяжий с хреном"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div id="menu-4" class="tab-content">
+          <h2 class="header">Горячие блюда</h2>
+          <div class="dish-cards">
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Язык говяжий с хреном</div>
+                </div>
+                <div class="dish-price">350</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/yazik.svg"
+                alt="Язык говяжий с хреном"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сельдь на бородинском хлебе</div>
+                  <div class="dish-name-sub">С яйцом и огурцом</div>
+                </div>
+                <div class="dish-price">240</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/seld.svg"
+                alt="Сельдь на бородинском хлебе"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Грибы маринованные</div>
+                </div>
+                <div class="dish-price">300</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/gribi.svg"
+                alt="Грибы маринованные"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Соленья ассорти</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/assorti.svg"
+                alt="Соленья ассорти"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Малосольная сёмга</div>
+                  <div class="dish-name-sub"></div>
+                </div>
+                <div class="dish-price">390</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/semga.svg"
+                alt="Малосольная сёмга"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сало домашнее с горчицей</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/salo.svg"
+                alt="Сало домашнее с горчицей"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div id="menu-5" class="tab-content">
+          <h2 class="header">Гарниры</h2>
+          <div class="dish-cards">
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Грибы маринованные</div>
+                </div>
+                <div class="dish-price">300</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/gribi.svg"
+                alt="Грибы маринованные"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сельдь на бородинском хлебе</div>
+                  <div class="dish-name-sub">С яйцом и огурцом</div>
+                </div>
+                <div class="dish-price">240</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/seld.svg"
+                alt="Сельдь на бородинском хлебе"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Язык говяжий с хреном</div>
+                </div>
+                <div class="dish-price">350</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/yazik.svg"
+                alt="Язык говяжий с хреном"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Соленья ассорти</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/assorti.svg"
+                alt="Соленья ассорти"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сало домашнее с горчицей</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/salo.svg"
+                alt="Сало домашнее с горчицей"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Малосольная сёмга</div>
+                  <div class="dish-name-sub"></div>
+                </div>
+                <div class="dish-price">390</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/semga.svg"
+                alt="Малосольная сёмга"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div id="menu-6" class="tab-content">
+          <h2 class="header">Десерты</h2>
+          <div class="dish-cards">
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сельдь на бородинском хлебе</div>
+                  <div class="dish-name-sub">С яйцом и огурцом</div>
+                </div>
+                <div class="dish-price">240</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/seld.svg"
+                alt="Сельдь на бородинском хлебе"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Соленья ассорти</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/assorti.svg"
+                alt="Соленья ассорти"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Грибы маринованные</div>
+                </div>
+                <div class="dish-price">300</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/gribi.svg"
+                alt="Грибы маринованные"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Сало домашнее с горчицей</div>
+                </div>
+                <div class="dish-price">320</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/salo.svg"
+                alt="Сало домашнее с горчицей"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Малосольная сёмга</div>
+                  <div class="dish-name-sub"></div>
+                </div>
+                <div class="dish-price">390</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/semga.svg"
+                alt="Малосольная сёмга"
+              />
+            </a>
+            <a href="#" class="dish-card">
+              <div class="dish-desc">
+                <div class="dish-title">
+                  <div class="dish-name">Язык говяжий с хреном</div>
+                </div>
+                <div class="dish-price">350</div>
+              </div>
+              <img
+                class="dish-pic"
+                src="img/yazik.svg"
+                alt="Язык говяжий с хреном"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-name-baloon-container">
+        <div class="tab-name-baloon hidden removed"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div id="scrollerUnHidePoint"></div>
+
+      <div class="container">
+        <img class="footer-logo" src="img/white-logo.svg" alt="UberEats" />
+
+        <hr class="footer-hr" />
+
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <div class="lang-selector-container">
+              <div class="wrapper">
+                <div class="select-btn">
+                  <span>Русский</span>
+                  <i class="uil uil-angle-down"></i>
+                </div>
+                <div class="content">
+                  <ul class="options"></ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-link">
+              <a href="#" class="hashtag">UberEats</a>
+            </div>
+            <div class="icons">
+              <a href="#">
+                <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-facebook-f"></span>
+                </div>
+                <div class="text">Facebook</div>
+              </a>
+              <a href="#">
+                <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-twitter"></span>
+                </div>
+                <div class="text">Twitter</div>
+              </a>
+              <a href="#">
+                <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-instagram"></span>
+                </div>
+                <div class="text">Instagram</div>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links-column">
+            <div class="footer-link"><a href="#">Об UberEats</a></div>
+            <div class="footer-link">
+              <a href="#">Станьте партнёром по доставке</a>
+            </div>
+            <div class="footer-link">
+              <a href="#">Станьте партнёром-рестораном</a>
+            </div>
+          </div>
+
+          <div class="footer-links-column">
+            <div class="footer-link"><a href="#">Все города</a></div>
+            <div class="footer-link"><a href="#">Помощь</a></div>
+            <div class="footer-link"><a href="#">Цены</a></div>
+            <div class="footer-link"><a href="#">FAQs</a></div>
+          </div>
+        </div>
+
+        <hr class="footer-hr" />
+
+        <div class="mobile container">
+          <a href="#"><div class="apple"></div></a>
+          <a href="#"><div class="google"></div></a>
+        </div>
+
+        <hr class="footer-hr" />
+
+        <div class="footer-legal">
+          <div class="footer-link">
+            <a href="#">© 2017 Uber Technologies Inc.</a>
+          </div>
+          <div class="footer-link">
+            <a href="#">Обработка персональных данных</a>
+          </div>
+          <div class="footer-link">
+            <a href="#">Пользовательское соглашение</a>
+          </div>
+        </div>
+
+        <div class="container">
+          <a class="scroller" id="scroller">
+            <div class="scroller-area"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="js/scroller.js"></script>
+    <script src="js/swiped-events.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
